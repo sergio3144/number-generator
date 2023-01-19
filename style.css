@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    color: burlywood;
+    text-align: center;
+    margin-top: 10px;
+}
+.annio {
+    font-size: 35px;
+    color: cadetblue;
+    letter-spacing: 2px;
+}
+
+
+.container-reloj {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.sec {
+    color: green;
+}
+
+.hr, .min, .sec {
+    font-size: 150px;
+}
+
