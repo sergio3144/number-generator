@@ -21,13 +21,33 @@ h1 {
 .container-reloj {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     margin-top: 100px;
-}
-.sec {
-    color: green;
+    background-color: blue;
+    max-width: 800px;
+    border-radius: 5px;
 }
 
+
 .hr, .min, .sec {
-    font-size: 150px;
+    font-size: 100px;
+    color: white;
+}
+
+.cambioColorHr {
+    background-color: black;
+    -webkit-box-shadow: 1px -5px 77px 10px rgba(0,0,0,0.55);
+    box-shadow: 1px -5px 77px 10px rgba(0,0,0,0.55);
+    -moz-box-shadow: 1px -5px 77px 10px rgba(0,0,0,0.55);
+}
+
+@media(max-width:842px) {
+    .container-reloj {
+        padding: 20px;
+        margin: 200px 20px 0 20px;
+    }
+    .hr, .min, .sec {
+        font-size: 50px;
+    }
 }
 

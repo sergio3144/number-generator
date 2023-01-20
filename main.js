@@ -6,10 +6,10 @@ const horaLocal = () => {
     let min = fechaFuncionMostrar(fecha.getMinutes());
     let sec = fechaFuncionMostrar(fecha.getSeconds());
 
-    document.querySelector('.hr').innerHTML = hr + '-'
+    document.querySelector('.hr').innerHTML = hr + '-';
     document.querySelector('.min').innerHTML = min + '-'
     document.querySelector('.sec').innerHTML = sec;
-
+    document.querySelector('.container-reloj').classList.toggle('cambioColorHr')
 
 }
 
